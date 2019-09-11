@@ -1,0 +1,132 @@
+*{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+*:focus{
+  outline: 0;
+}
+
+body{
+background: #2f2f38;  /* fallback for old browsers */
+}
+
+body, html{
+  margin: 0;
+  padding: 0;
+  }
+
+.ico{
+  width: 15vh;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.nomeLog{
+  font-weight: 300;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 28px;
+}
+
+.tirarFoto{
+  font-weight: 700;
+  width: 70%;
+  padding: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  border-radius: 3px;
+  background: #8A2387;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition: background 0.5s ease-out;
+  color: white;
+  border: none;
+}
+
+.escolherFoto{
+  font-weight: 700;
+  width: 70%;
+  padding: 25px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  border-radius: 3px;
+  background: #8A2387;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition: background 0.5s ease-out;
+  color: white;
+  border: none;
+}
+
+.dev{
+  font-weight: 700;
+  width: 70%;
+  padding: 25px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  border-radius: 3px;
+  background: #8A2387;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition: background 0.5s linear;
+  color: white;
+  border: none;
+}
+
+.escolherFoto:active, .tirarFoto:active, .dev:active{
+  background: #8A2387;
+  background: #8A2387;
+}
+
+.primeiroConteudo{
+
+}
+
+.segundoConteudo{
+    display: none;
+}
+
+.editar{
+  color: white;
+  text-align: center;
+}
+
+.save{
+  text-align: right;
+  color: white;
+}
+
+.fundoImg{
+  width: 100%;
+  background-color: rgb(197, 197, 197);
+  height: 50%;
+}
+
+.foto{
+  width: 50vh;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
